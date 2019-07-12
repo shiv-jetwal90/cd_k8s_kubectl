@@ -38,7 +38,4 @@ jobs:
             - kubectl create -o json -f ./appDeploy.yml
             - kubectl create -o json -f ./appSvc.yml
             - popd
-    flags:
-      - cd
-      - kctl
-      - jfrog
+    
